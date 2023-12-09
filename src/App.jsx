@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { useEffect } from 'react'
 
@@ -32,7 +30,7 @@ function App() {
           </div>
           <div className="w-full mb-10">
             <div className="text-3xl text-indigo-500 text-left leading-tight h-3">“</div>
-            <p className="text-sm text-gray-600 text-center px-5">{quote.content} </p>
+            <p className="text-sm  text-center px-5 font-extrabold">{quote.content} </p>
             <div className="text-3xl text-indigo-500 text-right leading-tight h-3 -mt-3">”</div>
           </div>
           <div className="w-full">
